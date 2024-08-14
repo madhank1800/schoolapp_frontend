@@ -1,0 +1,15 @@
+.notificationClass{
+     background-color:var(--orange);
+  color: var(--navyblue);
+  padding: 15px;
+  margin: 10px 0;
+  border-left: 5px solid var(--navyblue);
+  z-index: 1;
+  width: 500px;
+  margin-left: 400px;
+
+}
+
+.notBody{
+    background-color: var(--hex);
+}

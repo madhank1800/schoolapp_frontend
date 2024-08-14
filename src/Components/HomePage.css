@@ -1,0 +1,18 @@
+.hide_bg {
+  mix-blend-mode: multiply !important;
+  filter: contrast(1) !important;
+  background: transparent !important;
+}
+
+.school_logo {
+  background-color: var(--navyblue) !important;
+  display: flex;
+  flex-direction: column;
+  font-weight: 700;
+  color: var(--navyblue);
+  
+}
+
+.drawerBg {
+  background-color: var(--navyblue) !important;
+}

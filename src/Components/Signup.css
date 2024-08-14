@@ -1,0 +1,193 @@
+
+
+.wholePageCssClass{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--hex);
+}
+.wholeFormClass{
+    border:1px var(--orange) solid;
+    padding: 0px 30px 30px 30px;
+   margin-top: 20px;
+    width:500px;
+    background-color: var(--white);
+    border-radius: 5px;
+    /* box-shadow: 3px 2px 15px 0 var(--orange), 3px 2px 15px 0 var(--orange) inset ; */
+    box-shadow: 3px 2px 15px 0 var(--orange);
+}
+.headerClass{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 20px 20px 0px;
+    border-bottom:1px solid var(--navyblue);
+    width: 100%; 
+      
+     box-sizing: border-box;  
+}
+
+/* input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="tel"]:focus,
+input[type="password"]:focus,
+input[type="number"]:focus,
+select:focus {
+  border-color: var(--orange); 
+  outline: none;
+} */
+
+
+
+
+.nameClass{
+    display: flex;
+    flex-direction: row;
+ margin-top: 20px;
+}
+
+.nameClass > input{
+padding: 10px;
+margin: 0 10px 0 0;
+width:200px;
+}
+
+.emailToPassword{
+    display: flex;
+    flex-direction: column;
+    
+    margin-top: 20px;
+
+}
+
+.emailToPassword>input{
+    width:410px;
+    padding: 10px;
+    margin: 10px 0 10px 0;
+}
+
+
+.dateOfBirthClass{
+    display: flex;
+    flex-direction:column;
+    
+}
+
+
+
+.dateOfBirthClass >input{
+  display: flex;
+  flex-direction: row;
+  
+}
+
+
+.dateOfbirthInputClass>input{
+    width:130px;
+    padding: 10px;
+    margin:10px 10px 10px 0;
+}
+
+.dateOfbirthInputClass>select{
+    width:130px;
+    padding: 10px;
+    margin:10px 10px 10px 0;
+}
+
+
+.genderClass{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.genderInputClass{
+    display: flex;
+  flex-direction: row;
+  align-items: center; 
+}
+
+.checkboxAbsoluteClass{
+position: relative;
+margin-right: 10px; 
+}
+
+
+ .inputCheckBoxClass{
+    position: absolute;
+    left:110px;
+    top:30%;
+
+
+    /* position: absolute;
+  left: 100%;
+  top: 50%; 
+  transform: translateY(-50%);   
+  transform: translateX(-150%); */
+  
+ 
+} 
+
+
+.selectCustomGenderClass{
+    padding: 10px;
+    width: 410px;
+    margin-top: 10px;
+}
+.signupContentClass{
+    width: 410px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    line-height:normal;
+    margin-top: 10px;
+}
+
+.linkClass{
+color:var(--blue)
+}
+
+
+
+
+.inputGenderClass{
+    width: 130px;
+    padding: 10px;
+    
+
+}
+
+.buttonParentClass{
+    display: flex;
+    justify-content: center;
+    width: 410px;
+}
+
+
+.buttonClass{
+    margin-top: 20px;
+    border:none;
+    background: transparent;
+    width:150px ;
+    height:40px;
+    border:1px  var(--orange) solid;
+    background-color: var(--orange);
+    border-radius: 5%;
+    font-weight: 800;
+    font-size: medium;
+    color: var(--navyblue);
+  
+}
+
+
+ 
+.loginPageRedirectClass{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 410px;
+    margin-top: 20px;
+}
+
+.loginPageRedirectClass>p{
+    color: var(--blue);
+}
